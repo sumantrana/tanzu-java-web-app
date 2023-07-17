@@ -1,0 +1,13 @@
+server:
+  port: 9096
+spring:
+  application:
+    name: tanzu-java-web-app
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+  endpoint:
+    health:
+      show-details: always
